@@ -1,2 +1,2 @@
-# Sir (Sir Is Resin)
+# Sir (Superwise Information Retrieval)
 A .Net Elasticsearch clone
