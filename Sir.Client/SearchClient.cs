@@ -24,8 +24,11 @@ namespace Sir.Client
         {
             var q = query.Replace(" ", "%20").Replace("+", "%2B").Replace(":", "%3A");
             var url = string.Format("{0}/?query={1}&page={2}&size={3}", _url, q, page, size);
+
             Task<string> result = GetResponseString(new Uri(url));
+
             var resolved = JsonConvert.DeserializeObject<Result>(result.Result);
+
             return resolved;
         }
 

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using log4net;
 using Nancy;
 using Nancy.ModelBinding;
@@ -24,36 +23,55 @@ namespace Sir.Host
                 var docs = this.Bind<Dictionary<string, string>[]>();
                 var indexName = parameters.indexName;
                 var timer = new Stopwatch();
+
                 timer.Start();
                 HandleAddRequest(indexName, docs);
+
                 Log.InfoFormat("upserted {0} docs to {1} in {2}", docs.Length, indexName, timer.Elapsed);
+
                 return HttpStatusCode.NoContent;
             };
 
-            Post["/{indexName}/remove/{docId}"] = parameters =>
+            Post["/{indexName}/remove/{ids}"] = parameters =>
             {
-                var docId = parameters.docId;
+                var ids = parameters.ids;
                 var indexName = parameters.indexName;
                 var timer = new Stopwatch();
+
                 timer.Start();
-                HandleRemoveRequest(indexName, docId);
-                Log.DebugFormat("removed docs {0} in {1}", docId, timer.Elapsed);
+                HandleRemoveRequest(indexName, ids);
+
+                Log.DebugFormat("removed docs {0} in {1}", string.Join(",", ids), timer.Elapsed);
+
                 return HttpStatusCode.NoContent;
             };
         }
 
-        private void HandleRemoveRequest(string indexName, string docId)
+        private void HandleRemoveRequest(string indexName, IEnumerable<string> ids)
         {
+            try
+            {
+                var dir = Path.Combine(ToolBelt.GetDataDirectory(), indexName);
+                using (var delete = new DeleteOperation(dir, ids))
+                {
+                    delete.Execute();
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex);
+                throw;
+            }
         }
 
         private void HandleAddRequest(string indexName, IEnumerable<Dictionary<string, string>> docs)
         {
             try
             {
-                var dir = Path.Combine(Helper.GetDataDirectory(), indexName);
-                using (var writer = new IndexWriter(dir, new Analyzer()))
+                var dir = Path.Combine(ToolBelt.GetDataDirectory(), indexName);
+                using (var write = new WriteOperation(dir, new Analyzer(), docs.ToDocuments()))
                 {
-                    writer.Write(docs.Select(dic=>new Document(dic)));
+                    write.Execute();
                 }
             }
             catch (Exception ex)

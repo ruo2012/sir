@@ -21,17 +21,17 @@ namespace Sir.Client
 
         public void Write(IEnumerable<IDictionary<string, string>> docs)
         {
-            if(Post(new ArrayList(docs.ToArray())).Result != HttpStatusCode.NoContent) throw new InvalidOperationException();
+            if (Post(new ArrayList(docs.ToArray())).Result != HttpStatusCode.NoContent) throw new InvalidOperationException();
         }
 
-        public void Remove(string docId)
+        public void Remove(IEnumerable<string> docIds)
         {
-            if (Post(docId).Result != HttpStatusCode.NoContent) throw new InvalidOperationException();
+            if (Post(docIds).Result != HttpStatusCode.NoContent) throw new InvalidOperationException();
         }
 
-        private async Task<HttpStatusCode> Post(string docId)
+        private async Task<HttpStatusCode> Post(IEnumerable<string> docIds)
         {
-            var response = await _client.PostAsync(new Uri(_url + "remove/" + docId), new StringContent(docId));
+            var response = await _client.PostAsync(new Uri(_url + "remove/" + docIds), new StringContent(string.Join(",", docIds)));
             return response.StatusCode;
         }
 

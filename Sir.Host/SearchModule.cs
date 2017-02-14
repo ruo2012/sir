@@ -50,7 +50,7 @@ namespace Sir.Host
 
         private Searcher GetSearcher(string name)
         {
-            var dir = Path.Combine(Helper.GetDataDirectory(), name);
+            var dir = Path.Combine(ToolBelt.GetDataDirectory(), name);
 
             return new Searcher(dir, new QueryParser(new Analyzer()), new Tfidf());
         }
