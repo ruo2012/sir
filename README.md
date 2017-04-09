@@ -29,11 +29,11 @@ Marcus Lager, founder, 50%, Oscar Jorman, founder, 50%
 
 ## Competition
 
-https://www.elastic.co/
-http://hadoop.apache.org/
-https://lucene.apache.org/
-https://ravendb.net/
-https://www.postgresql.org/
+https://www.elastic.co/  
+http://hadoop.apache.org/  
+https://lucene.apache.org/  
+https://www.mongodb.com/  
+https://www.postgresql.org/  
 
 ## Get in touch
 
