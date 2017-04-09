@@ -9,9 +9,7 @@ Elasticsearch is built upon Lucene, an open-source search engine built on the Ja
 
 We've built Resin, a vector space model, a search/analytics framework and a document store that offers compression. Its competition is Lucene. Resin is built on .Net Core, the version of Microsoft's platform that can run on any type of operating system, including Windows and Linux.
 
-Our product offering, Sir (System for Information Retrieval) is a replacement system for the Elasticsearch + Hadoop setup, one that would make that type of technology available to all businesses, not only major players with lots of cash.
-
-Sir is a distributed incarnation of Resin, a search engine and long-term data storage solution in one with aspirations of being a Elasticsearch+Hadoop replacement and the end-of-the road for your data, not by being a cemetary as most archiving solutions of today but by compressing data in a way where it is very much alive and responsive to querying even at vast scales and after many years of usage.
+Our product offering, Sir (System for Information Retrieval) is a distributed incarnation of Resin, a search engine and long-term data storage solution in one with aspirations of being a Elasticsearch+Hadoop replacement and the end-of-the road for your data, not by being a cemetary as most archiving solutions of today but by compressing data in a way where it is very much alive and responsive to querying even at vast scales and after many years of usage.
 
 Machine-learning and AI will not become utilized to its full extend, or at all, if business does not solve the issue of storing and querying their big data. Sir is a crucial building block for businesses who want to conquer their data.
 
