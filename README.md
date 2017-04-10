@@ -1,5 +1,5 @@
 # Sir
-Sir is a system for information retrieval, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin).
+Sir is a system for information retrieval, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin). Sir interfaces with Resin, one could say.
 
 ## Product and market
 
