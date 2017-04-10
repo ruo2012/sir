@@ -35,6 +35,10 @@ https://lucene.apache.org/  (Super-simple query language. Love it. Stole it.)
 https://www.mongodb.com/  (Will be good to use as opponent for performance press-releases.)  
 https://www.postgresql.org/  (Not the biggest player, but definetly the scariest, and they support SQL. Hard nut. Hope they suck at compression.)  
 
+Anyone in telecom who already masters storing of vast data and are looking to productifying their solutions.
+
+The NSA and FRA, if they productify their solutions. Who's paying for those btw?
+
 ## Get in touch
 
 marcuslager at g mail dot com.
