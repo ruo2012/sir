@@ -33,11 +33,7 @@ https://www.elastic.co/  (Very competent and well-established. Outstanding docum
 http://hadoop.apache.org/  (Hadoop-experts love it.)  
 https://lucene.apache.org/  (Super-simple query language. Love it. Stole it.)  
 https://www.mongodb.com/  (Will be good to use as opponent for performance press-releases.)  
-https://www.postgresql.org/  (Not the biggest player, but definetly the scariest, and they support SQL. Hard nut. Hope they suck at compression.)  
-
-Anyone in telecom who already masters storing of vast data and are looking to productifying their solutions.
-
-The NSA and FRA, if they productify their solutions. Who's paying for those btw?
+https://www.postgresql.org/  (Not the biggest player, but definetly the scariest, and they support SQL. Hard nut. Hope they suck at compression, tooling and at generating traction.)  
 
 ## Get in touch
 
