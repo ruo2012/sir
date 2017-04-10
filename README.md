@@ -33,7 +33,7 @@ https://www.elastic.co/  (Very competent and well-established. Outstanding docum
 http://hadoop.apache.org/  (Hadoop-experts love it.)  
 https://lucene.apache.org/  (Super-simple query language. Love it. Stole it.)  
 https://www.mongodb.com/  (Will be good to use as opponent in performance press-releases.)  
-https://www.postgresql.org/  (Not the biggest player, but definetly the scariest, and they support SQL. Hard nut. Hope they either suck at compression, tooling and at generating traction or believe that storing big data over a long time is not an issue they need to solve.)  
+https://www.postgresql.org/  (Not the biggest player, but definetly the scariest because of their support for SQL and for their choice of indexing algorithms. Missing an Elasticsearch-killing GUI though.)  
 
 ## Get in touch
 
