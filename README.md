@@ -32,7 +32,7 @@ The market between Lucene and Resin (or between Elasticsearch+Hadoop and Sir) is
 https://www.elastic.co/  (Very competent and well-established. Outstanding documentation. Limits well-known.)  
 http://hadoop.apache.org/  (Hadoop-experts love it.)  
 https://lucene.apache.org/  (Super-simple query language. Love it. Stole it.)  
-https://www.mongodb.com/  (Will be good to use as opponent for performance press-releases.)  
+https://www.mongodb.com/  (Will be good to use as opponent in performance press-releases.)  
 https://www.postgresql.org/  (Not the biggest player, but definetly the scariest, and they support SQL. Hard nut. Hope they suck at compression, tooling and at generating traction.)  
 
 ## Get in touch
