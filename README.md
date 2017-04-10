@@ -21,9 +21,11 @@ Analysts who use Excel and SQL love Sir and Resin for giving them the ability to
 
 Resin is used by database-builders for its indexing capabilities. 
 
+Sir is used when web sites publishing large or vast amounts of data on the web, like Wikipedia.
+
 Researchers use Resin to test new search models because of the ease of implementing those models and their corresponding scoring schemes. 
 
-Lucene will continue to be maintained by the Elasticsearch and Solr teams. The market between Lucene and Resin is either split at Linux vs Windows or Java vs .Net Core or possibly Javalang vs C#. If they are both alive and well in ten years from now they will have become each other's equals and are contemplating joining forces.
+The market between Lucene and Resin (or between Elasticsearch+Hadoop and Sir) is either split at Linux vs Windows or Java vs .Net Core or possibly Javalang vs C#. If they are both alive and well in ten years from now they will have become each other's equals and are contemplating joining forces.
 
 ## Competition
 
