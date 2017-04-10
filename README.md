@@ -17,7 +17,9 @@ Machine-learning and AI will not become utilized to its full extend, or at all, 
 
 ## Vision
 
-In ten years from now businesses will have huge amounts of data stored in Sir or Resin, Sir's main component. The machines ten years from now will have as training data several years of quality data, compared to todays machines, which only have snapshots of data from windows smaller than months or weeks. Hadoop tooling will have becomebe a thing of the past or a thing only for huge Facebook-like data. Big data will be managed in Sir.
+In ten years from now businesses will have huge amounts of data stored in Sir or Resin, Sir's main component. The machines of that time will have as training data many years of quality data, compared to todays machines, which only have snapshots of data from windows smaller than a few months or weeks. Hadoop tooling is improved by now and they share the market with Sir, both being experts in querying long-term data stores. Sir's high data compression is used on-premise and in the cloud. All major cloud providers, including Amazon, Google and Microsoft, offer Sir as a microservice.
+
+Resin is used by database-builders for its indexing capabilities. Researchers use Resin to test new search models because of the ease of implementing those models and their corresponding scoring schemes. Lucene will be maintained by the Elasticsearch and Solr teams. They will have done a complete re-write by now.
 
 ## Competition
 
