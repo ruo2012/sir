@@ -1,8 +1,6 @@
 # Sir
 Sir is a distributed system for information retrieval, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin). Sir incarnates Resin.
 
-Sir is in alpha stage.
-
 ## Product and market
 
 Businesses today have learnt to collect big data. They can use a snapshot of their data to analyze the state of their systems or sales. Big data is so hard to keep around though that most businesses, even large coorporations, archive their data in hopes of finding a tool to query that archive some time in the future. Meanwhile, winning businesses, including startups with the right expertise, manage to keep most or even all of their data in a queryable state. A common setup at market-winning businesses is Elasticearch + Hadoop. They are market-winners because Hadoop-expertise is very rare, since those people work mostly for Facebook or Google.
