@@ -13,6 +13,14 @@ Our product offering, Sir, is a distributed incarnation of Resin, a search engin
 
 Machine-learning and AI will not become utilized to its full extend, or at all, if business does not solve the issue of storing and querying their big data. Sir is a crucial building block for businesses who want to conquer their data.
 
+## Research
+
+Our research efforts are in the NLP space. We want to build up a machine capable of comparing sentences, or web pages (or web sites) and produce a model of concepts that would enable us to spot notions of topics in web pages on the web, giving us deeper knowledge of the human data corpus.
+
+For example, what notions of the topic "homo-sexuality" is there in the Bible and what is the Bible's stance in that matter, compared to Wikipedia's?
+
+We want to give the power of strong analytics to the people of the world.
+
 ## Vision
 
 In ten years from now businesses will have huge amounts of data stored in Sir or Resin, Sir's main component. The machines of that time will have as training data many years of quality data, compared to todays machines, which only have snapshots of data from windows smaller than a few months or weeks. Hadoop tooling is improved by now and they share the market with Sir, both being experts in querying long-term data stores. Sir's high data compression is used on-premise and in the cloud. All major cloud providers, including Amazon, Google and Microsoft, offer Sir as a microservice.
@@ -34,6 +42,11 @@ http://hadoop.apache.org/  (Hadoop-experts love it.)
 https://lucene.apache.org/  (Super-simple query language. Love it. Stole it.)  
 https://www.mongodb.com/  (Will be good to use as opponent in performance press-releases.)  
 https://www.postgresql.org/  (Not the biggest player, but definetly the scariest because of their support for SQL and for their choice of indexing algorithms. Missing an Elasticsearch-killing GUI though.)  
+
+### Roadmap
+
+- [ ] Build MVP and DEMO
+- [ ] Build "Resin Over The Wire(TM)" (Rottweiller, or ROTW for short), a free and open way of sharing analytics between people in your community or of the world.
 
 ## Get in touch
 
