@@ -1,5 +1,5 @@
 # Sir
-Sir is a distributed system for information retrieval, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin). Sir incarnates Resin and provide distributed natural language processing, word2vec as well as other vector space implementations. Sir applies machine-learning techniques for concept extraction.
+Sir is a distributed system for information retrieval, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin). 
 
 ## The problem
 Companies of today collect loads of data, an important source of information to analysts who use statistical tools and machine learning to produce predictions on sales and system loads.
