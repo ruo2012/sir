@@ -11,11 +11,9 @@ These market winners (or soon-to-be) have solved the issue of long-term storing 
 Hadoop experience is as rare as finding a Facebook engineer for hire. The problem is thus left unsolved for the rest of the market players and they will be left behind, eventually.
 
 ## Our technology
-We've built a cross-platform search engine library. We call it [Resin](https://github.com/kreeben/resin). Looking around, it's closest competitor is Lucene. We are aiming for ~80 % feature parity with Lucene (term, boolean, phrase, fuzzy, fuzzy phrase and range querying). 
+We've built a cross-platform search engine library. We call it [Resin](https://github.com/kreeben/resin). Looking around, it's closest competitor is Lucene.
 
-Resin is currently in beta and we are working our way towards a release by launching several release candidates. Right now we are at RC2 with a third around the corner. 
-
-Being in beta, Resin is still faster than Lucene at indexing. In many scenarios that is also the case for querying. Before launching version 1 we aim to make Resin faster than Lucene for all types of queries.
+Being in beta, Resin is faster than Lucene at indexing and in many scenarios that is also the case for querying. Before releasing version 1.0 we aim to make Resin faster than Lucene for all types of queries.
 
 We also aim to sharpen Resin's edge over Lucene even further by adding stronger compression to our data structures and document store.
 
