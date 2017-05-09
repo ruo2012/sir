@@ -10,10 +10,10 @@ These market winners (or soon-to-be) have solved the issue of long-term storing 
 
 Hadoop experience is as rare as finding a Facebook engineer for hire. The problem is thus left unsolved for the rest of the market players as they will be left behind, eventually.
 
-## Our technology
+## Technology
 We've built a cross-platform search engine library. We call it [Resin](https://github.com/kreeben/resin). Looking around, it's closest competitor is Lucene.
 
-Being in beta, Resin is faster than Lucene, in many scenarios, at indexing and querying. Before releasing version 1.0 we aim to make Resin faster than Lucene for all types of queries and indexing scenarios.
+Resin is faster than Lucene, in many scenarios, at indexing and querying. Before releasing version 1.0 we aim to make Resin faster than Lucene for all types of queries and indexing scenarios.
 
 We also aim to sharpen Resin's edge over Lucene even further by adding stronger compression to our data structures and document store.
 
@@ -22,7 +22,7 @@ Sir is Resin distributed.
 
 It's main competitor is Elasticsearch ("ELK"). Targeting a cross-platform framework (.Net Core) and being built on Resin we feel very excited about challenging the ELK stack.
 
-Our plan for beating Elasticsearch revolves around five key features:
+Our plan for beating Elasticsearch+Hadoop revolves around five key features:
 
 - faster indexing
 - faster querying
