@@ -1,5 +1,5 @@
 # Sir
-Sir is a distributed system for information retrieval, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin). 
+Sir is a distributed system for information retrieval for on-premise or cloud-based architectures, a .Net Core Elasticsearch+Hadoop clone in early development, built on [Resin](https://github.com/kreeben/resin). 
 
 ## The problem
 Companies of today collect loads of data, information that analysts use with statistical tools and machine learning algorithms to produce predictions on sales and system loads.
