@@ -35,4 +35,4 @@ Our plan for beating Elasticsearch+Hadoop revolves around five key features:
 - more expressive querying language that allow for joins between databases or tables (indices)
 
 ## Investors
-If you believe it's time to give to the people of the world technology so powerful that with the right business strategy you could take on Google, then please, by all means, contact me.
+If you believe it's time to give to the people of the world search technology so powerful that with the right business strategy you could take on Google, then please, by all means, contact me.
